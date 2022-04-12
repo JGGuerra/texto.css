@@ -1,0 +1,163 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgaVxPntbB92XtogC68s3fNtkLBRuWpWiRyg&usqp=CAU");
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation-name: jk;
+    animation-duration: 7s;
+    animation-direction:normal ;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes jk {
+    from {
+ transform: translateX(0px);
+    }
+    to {
+transform:translateX(1500px) ;
+    }
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75%  { background-color:purple ;}
+    100% {background-color: green;}
+  }
+  h2{
+      text-shadow: 3px;
+      text-align: justify;
+      color: blueviolet;
+  }
+pre.txt1{
+font-size: 20px;
+font-style:italic ;
+background-color: darkblue;
+opacity:0.8 ;
+color: white;
+font-display: fallback;
+text-decoration-line:unset ;
+text-decoration-style:dotted ;
+border-style: solid;
+border-width: 5px;
+text-transform: uppercase;
+}
+pre.txt2{
+    font-style:oblique  ;
+    font-size: 15px;
+    background-color: white;
+    opacity:0.5 ;
+    color: black;
+    font-display:initial;
+    text-decoration-line:overline ;
+    text-decoration-style:dotted ;
+    border-style: solid;
+    border-width: 3px;
+    text-align: match-parent;
+    text-transform: lowercase;
+    }
+    pre.txt3{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        font-size: 15px;
+        background-color: white;
+        color: rgb(136, 124, 21);
+        font-display: fallback;
+        text-decoration-line:overline ;
+        text-decoration-style:dotted ;
+        border-style:double;
+        border-width: 3px;
+        text-align: center;
+        text-transform: lowercase;
+        }
+        pre.txt4{
+            font-family:cursive ;
+            font-size: 35px;
+            background-color: "#white ";
+            color: rgb(224, 24, 157);
+            font-display: fallback;
+            text-decoration-line:overline ;
+            text-decoration-style:dotted ;
+            border-style:dashed;
+            border-width: 1px;
+            text-align: justify;
+            text-transform: unset;
+            }
+            pre.txt5{
+                font-family:Cambria;
+                font-size: 19px;
+                background-color: "#white ";
+                color: rgb(224, 131, 24);
+                font-display: fallback;
+                text-decoration-line:overline ;
+                text-decoration-style:dotted ;
+                border-style:dashed;
+                border-width: 4px;
+                text-align:end;
+                text-transform: unset;
+                }
+                pre.txt6{
+                    font-family:Impact;
+                    font-size: 20px;
+                    background-color: "#white ";
+                    color: rgb(101, 24, 224);
+                    font-display: fallback;
+                    text-decoration-line:overline ;
+                    text-decoration-style:dotted ;
+                    border-style:dashed;
+                    border-width: 1px;
+                    text-align: justify;
+                    text-transform: unset;
+                    }
+                    pre.txt7{
+                        font-family:'Segoe UI';
+                        font-size: 10px;
+                        background-color: "#white ";
+                        color: rgb(224, 24, 91);
+                        font-display: fallback;
+                        text-decoration-line:overline ;
+                        text-decoration-style:dotted ;
+                        border-style:dashed;
+                        border-width: 1px;
+                        text-align: justify;
+                        text-transform: unset;
+                        }
+                        pre.txt8{
+                            font-family:'Courier New';
+                            font-size: 15px;
+                            background-color: "#white ";
+                            color: rgb(163, 230, 6);
+                            font-display: fallback;
+                            text-decoration-line:overline ;
+                            text-decoration-style:dotted ;
+                            border-style:dashed;
+                            border-width: 1px;
+                            text-align: center;
+                            text-transform: unset;
+                            }
+                            pre.txt9{
+                                font-family:'Lucida Sans Regular';
+                                font-size: 25px;
+                                background-color: "#white ";
+                                color: rgb(24, 184, 224);
+                                font-display: fallback;
+                                text-decoration-line:overline ;
+                                text-decoration-style:dotted ;
+                                border-style:dashed;
+                                border-width: 2px;
+                                text-align: end;
+                                text-transform: unset;
+                                }
+                                pre.txt10{
+                                    font-family:'Gill Sans' ;
+                                    font-size: 35px;
+                                    background-color: "#white ";
+                                    color: rgb(235, 80, 196);
+                                    font-display: fallback;
+                                    text-decoration-line:overline ;
+                                    text-decoration-style:dotted ;
+                                    border-style:dashed;
+                                    border-width: 1px;
+                                    text-align: justify;
+                                    text-transform: unset;
+                                    }
